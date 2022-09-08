@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Utilyes */
 img{
     width: 100%;
@@ -24,7 +25,7 @@ img{
     background-color: black;
     justify-content: center;
     align-items: center;
-    overflow: scroll;
+    overflow: auto;
 }
 .wrapper-comand{
     width: 100%;
@@ -41,12 +42,57 @@ img{
     width: 90%;  
 }
 .col{
-    height: 180px;
-    width: calc(100% / 7 - 10px);
+    height: 150px;
+    min-width: calc(100% / 7 - 10px);
     margin-bottom: 20px;
     margin-right: 5px;
     margin-left: 5px;
     background-image: url(https://picsum.photos/200);
     background-size: cover;
     background-position: center;
+    align-items: flex-end;
+}
+.nameprofile{
+    background-color: rgba(0,0,0,.3);
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+}
+
+/* WrapperComand */
+.comand{
+    width: calc(100% / 3);
+    min-height: 50px;
+}
+
+.wrapper-comand i{
+    font-size: 2em;
+    margin-left: 20px;
+    color: white;
+}
+i:hover{
+    color: lime;
+}
+.endmeeting{
+    background-color: #4A4A4A;
+    color: red;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 1em;
+}
+#angle{
+    font-size: .8em;
+}
+.left{
+    align-items: center;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    align-items: center;
+    justify-content: end;
 }
