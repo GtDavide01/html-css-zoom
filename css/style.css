@@ -82,17 +82,31 @@ i:hover{
     padding: 20px;
     font-size: 1em;
 }
-#angle{
+.wrapper-comand .fa-angle-up{
     font-size: .8em;
 }
+
 .left{
     align-items: center;
 }
-.center{
+.comand.center{
     align-items: center;
     justify-content: center;
+    flex-grow: 2;
 }
 .right{
     align-items: center;
     justify-content: end;
+}
+
+.comand p{
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+}
+.icon{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
 }
